@@ -1,0 +1,52 @@
+.mco-wrap h1 { display: flex; align-items: center; gap: 8px; }
+.mco-lead { font-size: 15px; color: #555; margin-bottom: 16px; }
+
+.mco-brand {
+	display: flex; justify-content: space-between; align-items: center;
+	background: linear-gradient(135deg, #1d3557, #457b9d);
+	color: #fff; padding: 16px 20px; border-radius: 10px;
+	margin: 15px 0 25px; box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+}
+.mco-brand a { color: #f1faee; text-decoration: underline; }
+.mco-brand-badge {
+	background: #f1faee; color: #1d3557; font-weight: 700;
+	padding: 6px 12px; border-radius: 20px;
+}
+
+.mco-stats {
+	display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 12px; margin: 20px 0;
+}
+.mco-stat {
+	background: #fff; border: 1px solid #e2e6ea; border-radius: 10px;
+	padding: 16px; text-align: center;
+}
+.mco-stat-num { display: block; font-size: 26px; font-weight: 700; color: #1d3557; }
+.mco-stat-num.mco-stat-small { font-size: 15px; line-height: 1.4; }
+.mco-stat span:last-child { color: #666; font-size: 13px; }
+
+.mco-actions {
+	display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+	padding: 15px; background: #f6f8fa; border-radius: 10px;
+	margin-bottom: 16px;
+}
+.mco-action-result { color: #1d3557; font-weight: 600; }
+.mco-spinner.is-active { visibility: visible; }
+
+.mco-hint { color: #555; margin-bottom: 25px; }
+
+.mco-section {
+	margin-top: 35px; padding: 8px 14px;
+	background: #eef3f7; border-left: 4px solid #457b9d;
+	color: #1d3557;
+}
+
+.form-table th { width: 280px; }
+.form-table p.description { color: #5b6b7c; font-style: italic; }
+
+.mco-limits {
+	margin-top: 30px; padding: 16px 20px; background: #fff;
+	border: 1px solid #e2e6ea; border-radius: 10px;
+}
+.mco-limits h3 { margin-top: 0; }
+.mco-limits li { color: #50575e; }
